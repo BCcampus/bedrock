@@ -30,6 +30,30 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/cuny-academic-commons/cbox-theme"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/bccampus/tlpd.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/bccampus/custom-wp-notify.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/bccampus/validate-by-domain.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/bccampus/custom-rest-routes.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/bccampus/excel-export.git"
     }
   ],
   "require": {
@@ -38,10 +62,17 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.9.6",
     "oscarotero/env": "^1.1.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "cuny-academic-commons/cbox-theme": "^1.0.17",
+    "bccampus/tlpd": "dev-dev",
+    "bccampus/custom-wp-notify": "dev-dev",
+    "bccampus/validate-by-domain": "dev-dev",
+    "bccampus/excel-export": "dev-dev",
+    "bccampus/custom-rest-routes": "dev-dev"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^3.0.2"
+    "phpunit/phpunit": "~5.5",
+    "humanmade/coding-standards": "^0.2"
   },
   "extra": {
     "installer-paths": {
