@@ -87,7 +87,11 @@
       "php -r \"copy('.env.example', '.env');\""
     ],
     "test": [
-      "phpcs"
+      "vendor/bin/phpunit --configuration web/app/themes/tlpd/phpunit.xml",
+      "@standards"
+    ],
+    "standards": [
+      "vendor/bin/phpcs --standard=web/app/themes/tlpd/phpcs.ruleset.xml web/app/themes/tlpd/*.php web/app/themes/tlpd/plugins/"
     ]
   }
 }
