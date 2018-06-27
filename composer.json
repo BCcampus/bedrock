@@ -41,6 +41,10 @@
     },
     {
       "type": "git",
+      "url": "https://github.com/bccampus/eypd.git"
+    },
+    {
+      "type": "git",
       "url": "https://github.com/bccampus/custom-wp-notify.git"
     },
     {
@@ -65,6 +69,7 @@
     "roots/wp-password-bcrypt": "1.0.0",
     "cuny-academic-commons/cbox-theme": "^1.0.17",
     "bccampus/tlpd": "dev-dev",
+    "bccampus/eypd": "dev-dev",
     "bccampus/custom-wp-notify": "dev-dev",
     "bccampus/validate-by-domain": "dev-dev",
     "bccampus/excel-export": "dev-dev",
@@ -87,10 +92,10 @@
       "php -r \"copy('.env.example', '.env');\""
     ],
     "test": [
-      "vendor/bin/phpunit --configuration web/app/themes/tlpd/phpunit.xml"
+      "vendor/bin/phpunit --configuration web/app/themes/eypd/phpunit.xml"
     ],
     "standards": [
-      "vendor/bin/phpcs --standard=web/app/themes/tlpd/phpcs.ruleset.xml web/app/themes/tlpd/*.php web/app/themes/tlpd/plugins/"
+      "vendor/bin/phpcs --standard=web/app/themes/eypd/phpcs.ruleset.xml web/app/themes/eypd/*.php"
     ]
   }
 }
